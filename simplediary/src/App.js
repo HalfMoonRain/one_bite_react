@@ -1,9 +1,12 @@
+import {useState} from 'react'
+
 import './App.css';
+import DiaryEditor from './DiaryEditor';
 
 function App() {
   return (
     <div className='App'>
-      <h2>hi</h2>
+      <DiaryEditor/>
     </div>
   );
 }

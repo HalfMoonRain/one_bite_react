@@ -15,7 +15,7 @@ const Counter  = ({initialValue}) => {
         <div>
             <h2>{count}</h2>
             <button onClick={onIncrease}>+</button>
-            <button onClick={onDecrease}>-</button>
+            <button onClick={onDecrease}>-</button> 
             <OddEvenResult count={count}></OddEvenResult>
         </div>
     )
